@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Workshop Frontend 02</title>
+        
+        <link rel="stylesheet" href="./main.css">
+        
+        <script src="./main.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Hello, friend!</h1>
+            
+            <ul>
+                <li class="item" onclick="itemClickHandler(this)">Item 01</li>
+                <li class="item" onclick="itemClickHandler(this)">Item 02</li>
+                <li class="item" onclick="itemClickHandler(this)">Item 03</li>
+                <li class="item" onclick="itemClickHandler(this)">Item 04</li>
+                <li class="item" onclick="itemClickHandler(this)">Item 05</li>
+            </ul>
+            
+            <input type="text" placeholder="item name ..." onchange="inputChangeHandler(event)">
+            
+            <button onclick="buttonClickHandler()">Remove Last Item</button>
+        </div>
+    </body>
+</html>
